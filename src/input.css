@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: sanmed;
+    src: url(/assets/fonts/static/DMSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: sanmeditalic;
+    src: url(/assets/fonts/static/DMSans-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: sanmed;
+    src: url(/assets/fonts/static/DMSans-Regular.ttf);
+}
+
+body{
+    font-family: san;
+}
+
+h1,h2{
+    font-family: sanmed;
+    font-weight: 700;
+}
